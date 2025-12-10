@@ -6,7 +6,7 @@ The blogpost by Outpost42 goes into more detail about this technique: https://ou
 
 ## Overview
 
-This code has a MouseActivity() function that will loop until human behaviour is detected. This is caluclated by capturing 5 mouse positions and calculating the degrees of the 4 vectors between them.
+This code has a MouseActivity() function that will loop until human behaviour is detected. This is determined by capturing 5 mouse positions and calculating the degrees of the 4 vectors between them.
 
 ## How It Works
 
