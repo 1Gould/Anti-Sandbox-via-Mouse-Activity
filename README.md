@@ -1,4 +1,4 @@
-# Mouse Behavior Detection System
+# Anti-Sandbox via Mouse Activity
 
 A trigonometry-based system that detects human vs. bot behavior by analyzing mouse movement patterns. This implementation is based on anti-sandbox technique used in LummaStealer v4.0.
 
