@@ -15,6 +15,10 @@ This system uses geometric analysis of mouse movements to distinguish between hu
 - Each position is captured with a **50-millisecond interval**
 - Records X, Y coordinates and timestamp for each position
 
+BOOL GetCursorPos(
+  [out] LPPOINT lpPoint
+);
+
 ### 2. Vector Analysis
 The system creates **4 vectors** between the 5 captured points:
 - Vector V0: P0 → P1
@@ -41,7 +45,7 @@ The detection logic is simple:
 
 Humans naturally make quick direction changes and curved movements, resulting in sharp angles. Bots typically move in straight lines with minimal direction changes.
 
-## Mathematical Foundation
+## Mathematics
 
 ### Euclidean Distance
 ```
