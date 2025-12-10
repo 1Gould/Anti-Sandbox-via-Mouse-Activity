@@ -175,10 +175,10 @@ int detect_human_behavior() {
     
     printf("\n=== Detection Result ===\n");
     if (is_human) {
-        printf("✓ HUMAN BEHAVIOR DETECTED\n");
+        printf("HUMAN BEHAVIOR DETECTED\n");
         printf("At least one angle is less than %.0f degrees (sharp turn)\n", THRESHOLD_DEGREES);
     } else {
-        printf("✗ BOT-LIKE BEHAVIOR DETECTED\n");
+        printf("BOT-LIKE BEHAVIOR DETECTED\n");
         printf("All angles are greater than %.0f degrees (linear movement)\n", THRESHOLD_DEGREES);
     }
     
